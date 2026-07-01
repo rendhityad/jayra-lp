@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jasa Kelola Marketplace All-In Service mulai 4,5 Juta. Tingkatkan omzet toko online Anda hingga 30% dalam 30 hari bersama Grow Digital.">
+    <title>Grow Digital - Marketplace Enabler & Digital Marketing</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-wrapper">
+                <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M10 16 C10 12 13 9 16 9 C19 9 22 12 22 16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <path d="M16 16 L20 16 L20 20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="16" cy="16" r="2" fill="currentColor"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-top">JAYRA</span>
+                    <span class="logo-bottom">&amp; Co.</span>
+                </div>
+            </div>
+            
+            <div class="timer-wrapper">
+                <span class="timer-badge">Special Offer</span>
+                <div class="countdown-container" id="countdown">
+                    <div class="timer-segment">
+                        <span class="timer-val" id="days">18</span>
+                        <span class="timer-label">hari</span>
+                    </div>
+                    <span class="timer-separator">:</span>
+                    <div class="timer-segment">
+                        <span class="timer-val" id="hours">05</span>
+                        <span class="timer-label">jam</span>
+                    </div>
+                    <span class="timer-separator">:</span>
+                    <div class="timer-segment">
+                        <span class="timer-val" id="minutes">03</span>
+                        <span class="timer-label">menit</span>
+                    </div>
+                    <span class="timer-separator">:</span>
+                    <div class="timer-segment">
+                        <span class="timer-val" id="seconds">37</span>
+                        <span class="timer-label">detik</span>
+                    </div>
+                    <span class="timer-separator">:</span>
+                    <div class="timer-segment">
+                        <span class="timer-val" id="ms">25</span>
+                        <span class="timer-label">ms</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Hero Section -->
+    <main class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Hero Left: Headlines & Video -->
+            <div class="hero-left">
+                <div class="service-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    SOLUSI DIGITAL ENABLER TERPERCAYA
+                </div>
+                <h1 class="main-headline">
+                    JASA KELOLA MARKETPLACE, HANDLE SELURUH <span class="highlight-blue">CAMPAIGN TOKO</span>
+                </h1>
+                <p class="sub-headline">
+                    Dapatkan Layanan All-In Service — <strong class="price-badge">Hanya 4,5 Juta</strong>
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">100+</span>
+                        <span class="stat-label">Brand Aktif</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">30%</span>
+                        <span class="stat-label">Rata-rata Kenaikan Omzet</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">30 Hari</span>
+                        <span class="stat-label">Hasil Terukur</span>
+                    </div>
+                </div>
+                <div class="video-cta-container">
+                    <div class="video-thumbnail-button" id="openVideoBtn" role="button" aria-label="Lihat Cara Kerjanya">
+                        <div class="video-preview-img">
+                            <div class="play-pulse"></div>
+                            <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5V19L19 12L8 5Z" />
+                            </svg>
+                        </div>
+                        <span class="video-cta-text">Lihat Cara Kerjanya</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hero Right: Lead Capture Form -->
+            <div class="hero-right">
+                <div class="form-card">
+                    <div class="form-header">
+                        <h2>Konsultasikan Kebutuhan Usaha Anda</h2>
+                        <p class="form-subtitle">Tim ahli kami siap membantu bisnis Anda berkembang</p>
+                    </div>
+                    
+                    <form class="lead-form" id="leadForm" novalidate>
+                        <!-- Full Name Input -->
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                </svg>
+                                <input type="text" id="fullName" placeholder="Nama Lengkap" required>
+                            </div>
+                            <span class="error-msg" id="nameError">Nama lengkap wajib diisi</span>
+                        </div>
+                        
+                        <!-- Nomor Telepon Input -->
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                <input type="tel" id="phone" placeholder="Nomor Telepon" required>
+                            </div>
+                            <span class="error-msg" id="phoneError">Nomor telepon tidak valid (min 9 digit)</span>
+                        </div>
+                        <!-- Link Toko Input -->
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                                </svg>
+                                <input type="url" id="storeLink" placeholder="Link Toko (Shopee / Tokopedia / dll)" required>
+                            </div>
+                            <span class="error-msg" id="storeLinkError">Masukkan link toko yang valid (contoh: https://shopee.co.id/toko-anda)</span>
+                        </div>
+                        
+                        <!-- Submit Button -->
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span class="btn-text">KONSULTASI GRATIS SEKARANG!</span>
+                            <span class="btn-spinner"></span>
+                        </button>
+                    </form>
+                    
+                    <div class="form-footer">
+                        <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                        <p class="disclaimer-text">*Kami menjamin kerahasiaan data Anda 100% dan tidak ada spam.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <!-- Social Proof & Partners Section -->
+    <section class="social-proof-section">
+        <div class="social-proof-container">
+            <div class="logos-group">
+                <!-- Shopee Shop Partner Badge -->
+                <div class="partner-logo logo-shopee-partner">
+                    <div class="shopee-badge">
+                        <svg width="20" height="20" viewBox="0 0 40 40" fill="none">
+                            <rect width="40" height="40" rx="8" fill="#EE4D2D"/>
+                            <path d="M20 6C16.7 6 14 8.7 14 12c0 .4.1.8.1 1.2H10c-.6 0-1 .5-.9 1.1l2 18c.1.5.5.9 1 .9h16c.5 0 .9-.4 1-.9l2-18c.1-.6-.3-1.1-.9-1.1h-4.2c.1-.4.1-.8.1-1.2C26 8.7 23.3 6 20 6zm0 2c2.2 0 4 1.8 4 4 0 .4-.1.8-.2 1.2h-7.6c-.1-.4-.2-.8-.2-1.2 0-2.2 1.8-4 4-4z" fill="white"/>
+                        </svg>
+                        <div class="badge-text-block">
+                            <span class="badge-title">Shopee</span>
+                            <span class="badge-sub">Shop Partner</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Meta Business Partner -->
+                <div class="partner-logo logo-meta-partner">
+                    <div class="meta-badge">
+                        <svg width="20" height="20" viewBox="0 0 40 40" fill="none">
+                            <rect width="40" height="40" rx="8" fill="#0866FF"/>
+                            <path d="M20 8C13.4 8 8 13.4 8 20s5.4 12 12 12 12-5.4 12-12S26.6 8 20 8zm5.5 8h-2.2c-.8 0-1 .4-1 1v1.5h3.2l-.4 3.2h-2.8V32h-3.3v-10.3H17v-3.2h2v-1.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.1 3.2.3L25.5 16z" fill="white"/>
+                        </svg>
+                        <div class="badge-text-block">
+                            <span class="badge-title">Meta</span>
+                            <span class="badge-sub">Business Partner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="partner-logo logo-shopify">
+                    <svg class="logo-svg" viewBox="0 0 120 30" fill="currentColor">
+                        <path d="M12.2 4.6c-.6 0-1.1.2-1.5.7l-4.4 5.3-2-1.3c-.6-.4-1.3-.3-1.8.3l-2 2.5c-.4.5-.4 1.2.1 1.7L5 17c.5.5 1.3.5 1.8 0l7.2-8.6c.4-.5.4-1.2-.1-1.7l-1.7-1.1c-.5-.7-1-.9-1.6-.9z" fill="#95BF47"/>
+                        <text x="22" y="19" font-family="'Plus Jakarta Sans', sans-serif" font-weight="bold" font-size="14" fill="#1A1A1A">shopify</text>
+                        <text x="72" y="19" font-family="'Plus Jakarta Sans', sans-serif" font-weight="normal" font-size="11" fill="#666666">experts</text>
+                    </svg>
+                </div>
+                <div class="partner-logo logo-hubspot">
+                    <svg class="logo-svg" viewBox="0 0 120 30" fill="currentColor">
+                        <text x="10" y="19" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#FF7A59">HubSp<tspan fill="#33475B">o</tspan>t</text>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="testimonials-group">
+                <div class="testimonial-badge">
+                    <div class="avatar-wrapper">
+                        <div class="avatar avatar-santi">SP</div>
+                    </div>
+                    <div class="testimonial-info">
+                        <span class="client-name">Santi P.</span>
+                        <span class="client-title">UMKM Owner</span>
+                        <p class="client-quote">"Sangat membantu!"</p>
+                    </div>
+                </div>
+                <div class="testimonial-badge">
+                    <div class="avatar-wrapper">
+                        <div class="avatar avatar-sani">SN</div>
+                    </div>
+                    <div class="testimonial-info">
+                        <span class="client-name">Sani P.</span>
+                        <span class="client-title">UMKM Owner</span>
+                        <p class="client-quote">"Sangat membantu!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== CASE STUDIES SECTION ===== -->
+    <section class="case-studies-section" id="case-studies">
+        <div class="section-container">
+            <div class="section-label">REAL RESULTS</div>
+            <h2 class="section-title">Kualitas yang Kami Upayakan</h2>
+            <p class="section-subtitle">Hasil kerja nyata yang kami capai bersama brand-brand yang terus berkembang bersama kami</p>
+            <div class="case-studies-grid">
+                <!-- Case 1 -->
+                <div class="case-card">
+                    <div class="case-badge case-badge-fashion">Fashion</div>
+                    <div class="case-header">
+                        <div class="case-brand-avatar">CH</div>
+                        <div>
+                            <h3 class="case-brand-name">Chanté Brand</h3>
+                            <span class="case-platform">Shopee & Tokopedia</span>
+                        </div>
+                    </div>
+                    <div class="case-metrics">
+                        <div class="metric-row">
+                            <span class="metric-label">BEFORE (Omzet/bln)</span>
+                            <span class="metric-val before">Rp 45 Juta</span>
+                        </div>
+                        <div class="metric-arrow">→</div>
+                        <div class="metric-row">
+                            <span class="metric-label">AFTER (Omzet/bln)</span>
+                            <span class="metric-val after">Rp 128 Juta</span>
+                        </div>
+                    </div>
+                    <div class="case-growth">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="16"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>
+                        +184% Growth dalam 60 Hari
+                    </div>
+                    <p class="case-desc">Optimasi listing produk, manajemen iklan Shopee Ads, dan full customer service handling menghasilkan lonjakan penjualan yang signifikan.</p>
+                </div>
+                <!-- Case 2 -->
+                <div class="case-card case-featured">
+                    <div class="case-badge case-badge-food">Food & Beverage</div>
+                    <div class="case-header">
+                        <div class="case-brand-avatar" style="background: linear-gradient(135deg, #f59e0b, #d97706);">QF</div>
+                        <div>
+                            <h3 class="case-brand-name">Queen Food</h3>
+                            <span class="case-platform">Tokopedia & TikTok Shop</span>
+                        </div>
+                    </div>
+                    <div class="case-metrics">
+                        <div class="metric-row">
+                            <span class="metric-label">BEFORE (Omzet/bln)</span>
+                            <span class="metric-val before">Rp 22 Juta</span>
+                        </div>
+                        <div class="metric-arrow">→</div>
+                        <div class="metric-row">
+                            <span class="metric-label">AFTER (Omzet/bln)</span>
+                            <span class="metric-val after">Rp 87 Juta</span>
+                        </div>
+                    </div>
+                    <div class="case-growth">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="16"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>
+                        +295% Growth dalam 45 Hari
+                    </div>
+                    <p class="case-desc">Live streaming management di TikTok Shop dikombinasikan dengan affiliate marketing menghasilkan revenue baru yang masif.</p>
+                    <div class="featured-tag">⭐ Best Case Study</div>
+                </div>
+                <!-- Case 3 -->
+                <div class="case-card">
+                    <div class="case-badge case-badge-fashion">Fashion</div>
+                    <div class="case-header">
+                        <div class="case-brand-avatar" style="background: linear-gradient(135deg, #8b5cf6, #6d28d9);">TK</div>
+                        <div>
+                            <h3 class="case-brand-name">Takashimura</h3>
+                            <span class="case-platform">Shopee & TikTok Shop</span>
+                        </div>
+                    </div>
+                    <div class="case-metrics">
+                        <div class="metric-row">
+                            <span class="metric-label">BEFORE (ROAS)</span>
+                            <span class="metric-val before">1.4x</span>
+                        </div>
+                        <div class="metric-arrow">→</div>
+                        <div class="metric-row">
+                            <span class="metric-label">AFTER (ROAS)</span>
+                            <span class="metric-val after">6.8x</span>
+                        </div>
+                    </div>
+                    <div class="case-growth">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="16"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>
+                        +385% Peningkatan ROAS dalam 45 Hari
+                    </div>
+                    <p class="case-desc">Restrukturisasi strategi iklan Shopee Ads & TikTok Ads dengan optimasi target audience, creative testing, dan bid management menghasilkan lonjakan ROAS dari 1.4x menjadi 6.8x tanpa menambah budget iklan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== DAFTAR CLIENT SECTION ===== -->
+    <section class="clients-section" id="clients">
+        <div class="section-container">
+            <div class="section-label">TRUSTED BY LEADING BRAND</div>
+            <h2 class="section-title">Bergabung dengan <span class="highlight-blue">100+ Brand</span> yang Telah Tumbuh Bersama Kami</h2>
+            <p class="section-subtitle">Brand lokal & nasional yang telah mempercayakan pengelolaan marketplace mereka kepada kami</p>
+            <div class="clients-logo-grid">
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl1">CH</div>
+                    <span>Chanté</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl2">QF</div>
+                    <span>Queen Food</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl3">ST</div>
+                    <span>Sintech</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl4">GR</div>
+                    <span>Greenlife</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl5">NV</div>
+                    <span>Novara</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl6">PL</div>
+                    <span>Paloma</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl7">SK</div>
+                    <span>Skinara</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl8">MX</div>
+                    <span>Maxfit</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl1">RF</div>
+                    <span>Rafinesse</span>
+                </div>
+                <div class="client-logo-card">
+                    <div class="client-logo-placeholder client-cl4">TN</div>
+                    <span>Tanaka Home</span>
+                </div>
+            </div>
+            <div class="clients-ticker-wrapper">
+                <div class="ticker-fade-left"></div>
+                <div class="ticker-fade-right"></div>
+                <div class="clients-ticker-track">
+                    <div class="ticker-item">Fashion Brand</div>
+                    <div class="ticker-item">F&B Business</div>
+                    <div class="ticker-item">Beauty & Skincare</div>
+                    <div class="ticker-item">Electronics</div>
+                    <div class="ticker-item">Health & Wellness</div>
+                    <div class="ticker-item">Home & Living</div>
+                    <div class="ticker-item">Sports & Fitness</div>
+                    <div class="ticker-item">Kids & Baby</div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="ticker-item">Fashion Brand</div>
+                    <div class="ticker-item">F&B Business</div>
+                    <div class="ticker-item">Beauty & Skincare</div>
+                    <div class="ticker-item">Electronics</div>
+                    <div class="ticker-item">Health & Wellness</div>
+                    <div class="ticker-item">Home & Living</div>
+                    <div class="ticker-item">Sports & Fitness</div>
+                    <div class="ticker-item">Kids & Baby</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== COMPARISON TABLE SECTION ===== -->
+    <section class="comparison-section" id="comparison">
+        <div class="section-container">
+            <div class="section-label">WHY GROW DIGITAL?</div>
+            <h2 class="section-title">Bandingkan Kami dengan <span class="highlight-blue">Agency Lainnya</span></h2>
+            <p class="section-subtitle">Lihat perbedaan nyata antara membangun tim sendiri, menggunakan agency biasa, atau bekerja sama dengan Grow Digital</p>
+            <div class="comparison-wrapper">
+                <div class="comparison-table">
+                    <!-- Table Header -->
+                    <div class="comp-header comp-col-feature"></div>
+                    <div class="comp-header comp-col-self">
+                        <div class="comp-header-badge badge-danger">Risiko Tinggi</div>
+                        <h3>Bangun Tim Sendiri</h3>
+                        <div class="comp-price">Rp 20 Juta+/bln</div>
+                    </div>
+                    <div class="comp-header comp-col-agency">
+                        <div class="comp-header-badge badge-warning">Risiko Sedang</div>
+                        <h3>Agency Biasa</h3>
+                        <div class="comp-price">Rp 8–15 Juta/bln</div>
+                    </div>
+                    <div class="comp-header comp-col-grow comp-highlighted">
+                        <div class="comp-header-badge badge-success">Risiko Rendah</div>
+                        <h3>Grow Digital</h3>
+                        <div class="comp-price">Mulai Rp 4,5 Juta/bln</div>
+                    </div>
+                    <!-- Row: Account Manager -->
+                    <div class="comp-feature">Account Manager Dedicated</div>
+                    <div class="comp-cell comp-col-self"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-agency"><span class="comp-check partial">~</span><small>Shared</small></div>
+                    <div class="comp-cell comp-col-grow comp-highlighted"><span class="comp-check yes">✓</span></div>
+                    <!-- Row: Iklan / Ads -->
+                    <div class="comp-feature">Manajemen Iklan (Ads)</div>
+                    <div class="comp-cell comp-col-self"><span class="comp-check partial">~</span><small>Belajar Sendiri</small></div>
+                    <div class="comp-cell comp-col-agency"><span class="comp-check yes">✓</span></div>
+                    <div class="comp-cell comp-col-grow comp-highlighted"><span class="comp-check yes">✓</span></div>
+                    <!-- Row: Graphic Design -->
+                    <div class="comp-feature">Desain Grafis & Konten</div>
+                    <div class="comp-cell comp-col-self"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-agency"><span class="comp-check partial">~</span><small>Extra Biaya</small></div>
+                    <div class="comp-cell comp-col-grow comp-highlighted"><span class="comp-check yes">✓</span></div>
+                    <!-- Row: Customer Service -->
+                    <div class="comp-feature">Customer Service Handler</div>
+                    <div class="comp-cell comp-col-self"><span class="comp-check partial">~</span><small>Harus Rekrut</small></div>
+                    <div class="comp-cell comp-col-agency"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-grow comp-highlighted"><span class="comp-check yes">✓</span></div>
+                    <!-- Row: Live Streaming -->
+                    <div class="comp-feature">Live Streaming Management</div>
+                    <div class="comp-cell comp-col-self"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-agency"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-grow comp-highlighted"><span class="comp-check yes">✓</span></div>
+                    <!-- Row: Affiliate -->
+                    <div class="comp-feature">Affiliate Management</div>
+                    <div class="comp-cell comp-col-self"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-agency"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-grow comp-highlighted"><span class="comp-check yes">✓</span></div>
+                    <!-- Row: Performance Dashboard -->
+                    <div class="comp-feature">Laporan Performa Real-time</div>
+                    <div class="comp-cell comp-col-self"><span class="comp-check no">✗</span></div>
+                    <div class="comp-cell comp-col-agency"><span class="comp-check partial">~</span><small>Bulanan</small></div>
+                    <div class="comp-cell comp-col-grow comp-highlighted"><span class="comp-check yes">✓</span><small>Mingguan</small></div>
+                    <!-- Row: Harga -->
+                    <div class="comp-feature">Estimasi Biaya Bulanan</div>
+                    <div class="comp-cell comp-col-self comp-price-cell">Rp 20 Juta+</div>
+                    <div class="comp-cell comp-col-agency comp-price-cell">Rp 8–15 Juta</div>
+                    <div class="comp-cell comp-col-grow comp-highlighted comp-price-cell comp-price-win">Mulai Rp 4,5 Juta</div>
+                </div>
+            </div>
+            <!-- Bottom CTA in comparison -->
+            <div class="comparison-cta">
+                <p>Hemat lebih dari <strong>Rp 15 Juta per bulan</strong> dibanding membangun tim sendiri</p>
+                <a href="#leadForm" class="comp-cta-btn" onclick="document.getElementById('fullName').focus(); return true;">Mulai Konsultasi Gratis →</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <span class="copyright">Jayra &amp; Co. &copy; 2025</span>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Kebijakan Privasi</a>
+                <span class="footer-separator"></span>
+                <a href="#" class="footer-link">Syarat & Ketentuan</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Video Modal -->
+    <div class="modal-overlay" id="videoModal">
+        <div class="modal-box">
+            <button class="modal-close-btn" id="closeVideoBtn" aria-label="Tutup Video">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="video-aspect-ratio">
+                <div class="mock-player">
+                    <div class="mock-player-controls">
+                        <button class="mock-play-btn" id="mockPlayBtn">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path d="M8 5V19L19 12L8 5Z"></path>
+                            </svg>
+                        </button>
+                        <span class="mock-player-title"> Jayra &amp; Co. - Bagaimana Cara Kami Membantu Anda</span>
+                    </div>
+                    <video id="promoVideo" width="100%" height="100%" poster="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80">
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-hand-holding-a-smartphone-with-a-social-media-feed-on-screen-41584-large.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="success-box">
+            <div class="success-icon-wrapper">
+                <svg class="success-checkmark" viewBox="0 0 52 52">
+                    <circle class="success-checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="success-checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+            </div>
+            <h3>Konsultasi Berhasil Dikirim!</h3>
+            <p>Terima kasih telah menghubungi kami. Tim ahli kami akan segera menghubungi Anda melalui email dan WhatsApp dalam waktu 1x24 jam.</p>
+            <button class="success-close-btn" id="closeSuccessBtn">Oke, Siap!</button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
